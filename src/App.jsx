@@ -1,11 +1,13 @@
 import Achievements from "./components/Achievements";
 import Book from "./components/Book";
 import Content1 from "./components/Content1";
+import Content10 from "./components/Content10";
 import Content2 from "./components/Content2";
 import Content3 from "./components/Content3";
 import Content4 from "./components/Content4";
 import Content5 from "./components/Content5";
 import Content6 from "./components/Content6";
+
 import Content8 from "./components/Content8";
 import Content9 from "./components/Content9";
 import Hero from "./components/Hero";
@@ -42,6 +44,9 @@ function App() {
         </div>
         <div>
           <Content6 />
+        </div>
+        <div>
+          <Content10 />
         </div>
         <div>
           <Content8 />

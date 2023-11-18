@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="w-full max-md:pt-5 bg-gradient-to-br bg-cyan-900 relative">
+    <div className="w-full max-md:pt-5 bg-gradient-to-br from-cyan-900 to-slate-800  relative">
       <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center px-4 ">
         <div className="md:w-[50%] mb-5 max-lg:pl-7 max-xl:pl-7">
-          <p className="text-lg md:text-sm text-black/90">
+          <p className="text-lg md:text-sm text-[#b6b6b6]">
             Revitalize Your Intimate Experience
           </p>
           <motion.h1
@@ -18,10 +18,10 @@ const Hero = () => {
           >
             Insights and Solution for<br></br> Sexual Dysfunction
           </motion.h1>
-          <p className="text-sm md:text-lg text-black/90">
+          <p className="text-sm md:text-lg text-[#cfcfcf]">
             With Dr.Shawket Alkhayal
           </p>
-          <button className="bg-[#0FACEF] duration-300 text-white py-3 px-5 rounded-xl mt-4 hover:bg-white hover:text-black animate-bounce">
+          <button className="bg-[#0FACEF] duration-300 text-white py-3 px-5 rounded-xl mt-5 hover:bg-white hover:text-black animate-bounce">
             Book An Appointment
           </button>
         </div>

@@ -18,7 +18,7 @@ const Book = () => {
             name=""
             id=""
             placeholder="Name"
-            className="p-3 m-2 text-black rounded-lg"
+            className="py-3 px-10 my-3 text-black rounded-lg"
             required
           />
           <label htmlFor="">Email</label>
@@ -27,7 +27,7 @@ const Book = () => {
             name=""
             id=""
             placeholder="Email"
-            className="p-3 m-2 text-black rounded-lg"
+            className="py-3 px-10 my-3 text-black rounded-lg"
             required
           />
           <label htmlFor="" placeholder="+971">
@@ -38,10 +38,10 @@ const Book = () => {
             name=""
             id=""
             placeholder="+971"
-            className="p-3 m-2 text-black rounded-lg"
+            className="py-3 px-10 my-3 text-black rounded-lg"
             required
           />
-          <button className="bg-[#0FACEF] duration-300 text-white py-3 px-5 rounded-xl mt-4 hover:bg-white hover:text-black animate-bounce">
+          <button className="bg-[#0FACEF] duration-300 text-white py-3 px-10 my-3 rounded-xl mt-4 hover:bg-white hover:text-black">
             Book Now
           </button>
         </form>

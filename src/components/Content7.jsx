@@ -1,33 +1,69 @@
 import React from "react";
 import Image from "../assets/sexual-dysfunction-1.jpg";
 
-import { headTextAnimationOnView } from "../motion";
+import { headTextAnimation } from "../motion";
 import { motion } from "framer-motion";
 
 const Content7 = () => {
   return (
-    <div className="w-full bg-white py-14">
-      <div className="max-w-[1100px] mx-auto grid md:grid-cols-2 gap-6">
-        <div className="flex flex-col items-center justify-center  ">
+    <div className="w-full bg-[#25262b] py-14">
+      <img src={Image} alt="" className="w-[60vw] border-2 border-black/80" />
+      <motion.div
+        {...slideAnimationScroll("up")}
+        className="max-w-[1100px] mx-auto grid md:grid-cols-2 gap-6 place-items-center"
+      >
+        <div className="flex flex-col items-center justify-center p-3 sm:pr-7 md:pr-3">
           <motion.h1
-            {...headTextAnimationOnView}
-            className="text-black text-5xl max-md:text-center"
+            {...slideAnimationScroll("left")}
+            className="text-white max-xs:p-0 text-4xl md:text-5xl max-md:text-center max-sm:p-2 max-md:p-1"
           >
-            What Should You Do If You Suffer From Erectile Weakness?
+            What is <span className="text-[#0FACEF]">Sexual dysfunction ?</span>
           </motion.h1>
-          <p className="text-gray my-5 text-black max-md:text-center ">
-            There are a number of Erectile Dysfunction treatments available. The
-            type of treatment generally depends on the underlying cause of ED,
-            which can be determined by the doctor through clinical examination
-            and special blood tests.
-            <br />A Colour penile duplex Doppler study may also be required to
-            check the blood flow in the penis and determine the exact cause of
-            Erectile dysfunction. Penile doppler could also determine the best
-            option of treatment for your condition.
+          <p className="text-gray my-5 text-[#cfcfcf] max-md:text-center max-md:p-4">
+            Treatments for Erectile Dysfunction range from counselling and
+            lifestyle changes to medications, injections or surgery. If you
+            suffer from ED, it is important to talk to Dr Shawket Alkhayal Who
+            is a world expert in the management of Erectile Dysfunction. He can
+            help identify the cause of your ED and recommend the most
+            appropriate and personalized treatment for you.
           </p>
-          <img src={Image} alt="" className="object-cover w-[92%]  " />
+          <p className="text-gray my-5 text-[#cfcfcf] max-md:text-center max-md:p-4">
+            Apart from the temporary medical treatments that are well known in
+            pharmacies, One of the newest and permanently effective treatments
+            available today is
+            <span>Platelet Rich Plasma (PRP) penile rejuvenation</span>, which
+            is widely used in the United States and Dr Shawket is exclusively
+            licensed to provide this treatment and train other doctors in the
+            Middle East. It results in penile corporeal rejuvenation leading to
+            a harder and sustainable erection. It can also result in penis
+            enlargement when used according to a special protocol with a vacuum
+            pump.
+          </p>
         </div>
-      </div>
+        <div className="">
+          <p className="text-gray text-[#cfcfcf] max-md:text-center max-md:p-4">
+            <span>Low intensity shockwave therapy</span> is another effective
+            treatment modality for Erectile dysfunction, that improves the blood
+            flow into the penis by stimulating the formation of new blood
+            vessels and thus enhancing a man’s ability to attain and maintain a
+            stronger erection. We have one of the most advanced devices with a
+            linear applicator for delivering Shockwave therapy for erectile
+            dysfunction, covering the whole penis.
+          </p>
+          <p className="text-gray my-5 text-[#cfcfcf] max-md:text-center max-md:p-4">
+            When all these and other treatments like penile intra-cavernosal
+            injections fail, then a penile implant is usually recommended. There
+            are many types of these implants available and can be discussed with
+            doctor Alkhayal for the most suitable device in your condition.
+          </p>
+          <p className="text-gray my-5 text-[#cfcfcf] max-md:text-center max-md:p-4">
+            Do not hesitate to get in touch with Dr Shawket Alkhayal who is a
+            world expert in treating erectile dysfunction and premature
+            ejaculation and who will be more than happy to help you improve the
+            quality of your life.
+          </p>
+        </div>
+      </motion.div>
     </div>
   );
 };
